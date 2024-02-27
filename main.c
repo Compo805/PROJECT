@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int result = (5 + 2) * 3;
-    printf("Result: %d\n", result);
+    int num = 10;
+    float result = (float)num / 3;
+    printf("Result: %.2f\n", result);
     return 0;
 }
-
