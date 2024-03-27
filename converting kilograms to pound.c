@@ -3,6 +3,7 @@
 int main()
 {
     const float POUND = 2.20462;
+    int kg;
     printf("KILOGRAMS\t  POUNDS\n");
     for (int kg = 0; kg <= 100; kg = kg + 10)
     {
